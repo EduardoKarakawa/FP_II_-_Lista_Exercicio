@@ -10,10 +10,10 @@ int main() {
 	std::cin >> b;
 
 	if (&a > &b) {
-		std::cout << "Memoria de a eh maior e tem: " << a << " armazenado" << std::endl;
+		std::cout << "Memoria de a eh maior e tem: " << &a << " armazenado" << std::endl;
 	}
 	else {
-		std::cout << "Memoria de b eh maior e tem: " << b << " armazenado" << std::endl;
+		std::cout << "Memoria de b eh maior e tem: " << &b << " armazenado" << std::endl;
 	}
 
 	system("pause");
